@@ -20,8 +20,11 @@ utils.py file consists training and testing functions which are described below,
 
 ## 3. S5.ipynb
 This is the main notebook file which consists below process,
-#### import packages : We are importing all neccessary libraries and functions files such as model.py and utils.py. 
-- *Load Model* In the next step, we have to check the Cuda device which adds support for CUDA tensor types, that implement the same function as CPU tensors, but they utilize GPUs for computation. Then, call the `model.py` function and load model to available device.
+### import packages: 
+We are importing all neccessary libraries and functions files such as model.py and utils.py. 
+
+### Load Model:
+-  In the next step, we have to check the Cuda device which adds support for CUDA tensor types, that implement the same function as CPU tensors, but they utilize GPUs for computation. Then, call the `model.py` function and load model to available device.
 - `summary()` function Summarize the given PyTorch model which summarized information includes Layer names, input/output shapes, kernel shape, No. of parameters.
 ```
 ----------------------------------------------------------------
