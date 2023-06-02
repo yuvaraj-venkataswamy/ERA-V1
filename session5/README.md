@@ -18,6 +18,11 @@ utils.py file consists training and testing functions which are described below,
 - `train()` function defines the process of training the dataset.
 - `test()` function is used for testing the dataset.
 
+## 3. S5.ipynb
+This is the main file where we are importing all neccessary libraries and functions files such as model.py and utils.py. This notebook file consists below processes,
+
+
+
 ## MNIST-Classification
 
 ### Sample MNIST dataset
