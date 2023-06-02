@@ -1,4 +1,4 @@
-# Session 5
+# Session 5 Assignment
 
 ## Sample MNIST dataset
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/sample_dataset.png)
