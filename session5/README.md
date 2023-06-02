@@ -4,11 +4,10 @@
 ## Folder Structure
 ```
 session5
-_________
-   |── model.py
-   |── utils.py
-   |── S5.ipynb     
-   |── README.md   
+|── model.py
+|── utils.py
+|── S5.ipynb     
+|── README.md   
 ```
 
 ### 1. model.py
