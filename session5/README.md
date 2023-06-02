@@ -47,7 +47,16 @@ Params size (MB): 2.26
 Estimated Total Size (MB): 2.94
 ----------------------------------------------------------------
 ```
-
+### c. Preparing the Dataset
+- torch.manual_seed(1):Sets the seed for generating random numbers. Returns a torch.Generator object.
+- batch_size: batch size is the number of images (here, 128 images) we want to read in one go.
+- kwargs = {'num_workers': 1, 'pin_memory': True}: num_workers-how many subprocesses to use for data loading. For data loading, passing pin_memory=True to a DataLoader will automatically put the fetched data Tensors in pinned memory, and thus enables faster data transfer to CUDA-enabled GPUs.
+- torch.utils.data.DataLoader: we make Data iterable by loading it to a loader.
+- datasets.MNIST: Downloading the MNIST dataset for training and testing at path ../data.
+- transform=transforms.Compose:Composes several transforms together. This transform does not support torchscript.
+- transforms.ToTensor(): This converts the image into numbers, that are understandable by the system. It separates the image into three color channels (separate images): red, green & blue. Then it converts the pixels of each image to the brightness of their color between 0 and 255. These values are then scaled down to a range between 0 and 1. The image is now a Torch Tensor.
+- transforms.Normalize((0.1307,), (0.3081,)): This normalizes the tensor with a mean (0.1307,) and standard deviation (0.3081,) which goes as the two parameters respectively.
+- shuffle=True: Shuffle the training data to make it independent of the order by making it a True.
 
 
 
