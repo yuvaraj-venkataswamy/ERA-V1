@@ -1,4 +1,5 @@
-# Session 5 Assignment
+# ERA V1 - Session 5 Assignment
+   This task provides the folder structure of Neural Network classification using MNIST dataset and describes each file inside the folder.
 
 ## Folder Structure
 ```
