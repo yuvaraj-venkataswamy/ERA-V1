@@ -48,49 +48,19 @@ Estimated Total Size (MB): 2.94
 ----------------------------------------------------------------
 ```
 ### c. Preparing the Dataset
-- torch.manual_seed(1):Sets the seed for generating random numbers. Returns a torch.Generator object.
-- batch_size: batch size is the number of images (here, 128 images) we want to read in one go.
-- kwargs = {'num_workers': 1, 'pin_memory': True}: num_workers-how many subprocesses to use for data loading. For data loading, passing pin_memory=True to a DataLoader will automatically put the fetched data Tensors in pinned memory, and thus enables faster data transfer to CUDA-enabled GPUs.
-- torch.utils.data.DataLoader: we make Data iterable by loading it to a loader.
-- datasets.MNIST: Downloading the MNIST dataset for training and testing at path ../data.
-- transform=transforms.Compose:Composes several transforms together. This transform does not support torchscript.
-- transforms.ToTensor(): This converts the image into numbers, that are understandable by the system. It separates the image into three color channels (separate images): red, green & blue. Then it converts the pixels of each image to the brightness of their color between 0 and 255. These values are then scaled down to a range between 0 and 1. The image is now a Torch Tensor.
-- transforms.Normalize((0.1307,), (0.3081,)): This normalizes the tensor with a mean (0.1307,) and standard deviation (0.3081,) which goes as the two parameters respectively.
-- shuffle=True: Shuffle the training data to make it independent of the order by making it a True.
-
-
-
-
-
-## MNIST-Classification
-
-### Sample MNIST dataset
+- `batch_size`: batch size is the number of images (here, 128 images) we want to read in one go.
+- `torch.utils.data.DataLoader`: we make Data iterable by loading it to a loader.
+- `datasets.MNIST`: Downloading the MNIST dataset for training and testing at path ../data.
+- `transform=transforms.Compose`: Composes several transforms together. This transform does not support torchscript.
+- `transforms.ToTensor()`: This converts the image into numbers, that are understandable by the system. It separates the image into three color channels (separate images): red, green & blue. Then it converts the pixels of each image to the brightness of their color between 0 and 255. These values are then scaled down to a range between 0 and 1. The image is now a Torch Tensor.
+- `transforms.Normalize((0.1307,), (0.3081,))`: This normalizes the tensor with a mean (0.1307,) and standard deviation (0.3081,) which goes as the two parameters respectively.
+- `shuffle=True`: Shuffle the training data to make it independent of the order by making it a True.
+- Sample MNIST dataset
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/sample_dataset.png)
 
-### Model
-```
-----------------------------------------------------------------
-        Layer (type)               Output Shape         Param #
-================================================================
-            Conv2d-1           [-1, 32, 26, 26]             320
-            Conv2d-2           [-1, 64, 24, 24]          18,496
-            Conv2d-3          [-1, 128, 10, 10]          73,856
-            Conv2d-4            [-1, 256, 8, 8]         295,168
-            Linear-5                   [-1, 50]         204,850
-            Linear-6                   [-1, 10]             510
-================================================================
-Total params: 593,200
-Trainable params: 593,200
-Non-trainable params: 0
-----------------------------------------------------------------
-Input size (MB): 0.00
-Forward/backward pass size (MB): 0.67
-Params size (MB): 2.26
-Estimated Total Size (MB): 2.94
-----------------------------------------------------------------
-```
-
-### Training logs
+### d. Training and Testing
+- The neural network iterates over the training set and updates the weights. We make use of `optim.SGD` which is a Stochastic Gradient Descent (SGD) provided by PyTorch to optimize the model.
+- After each epoch the logs are provided below,
 ```
 Adjusting learning rate of group 0 to 1.0000e-02.
 Epoch 1
@@ -194,5 +164,7 @@ Test set: Average loss: 0.0184, Accuracy: 9936/10000 (99.36%)
 
 Adjusting learning rate of group 0 to 0.0000e+00.
 ```
-### Accuracy and Loss plots
+### e. Accuracy and Loss plots
+- In each epoch (number of times we iterate over the training set), we will be seeing a gradual decrease in training loss.
+- The below figure provides training and testing loss as well as accuracy of the built model.
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/accuracy_loss_plot.png)
