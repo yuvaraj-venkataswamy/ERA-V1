@@ -56,6 +56,7 @@ Estimated Total Size (MB): 2.94
 - `transforms.Normalize((0.1307,), (0.3081,))`: This normalizes the tensor with a mean (0.1307,) and standard deviation (0.3081,) which goes as the two parameters respectively.
 - `shuffle=True`: Shuffle the training data to make it independent of the order by making it a True.
 - Sample MNIST dataset
+
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/sample_dataset.png)
 
 ### d. Training and Testing
@@ -167,4 +168,5 @@ Adjusting learning rate of group 0 to 0.0000e+00.
 ### e. Accuracy and Loss plots
 - In each epoch (number of times we iterate over the training set), we will be seeing a gradual decrease in training loss.
 - The below figure provides training and testing loss as well as accuracy of the built model.
+
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/accuracy_loss_plot.png)
