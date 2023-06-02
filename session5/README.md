@@ -9,22 +9,22 @@
 |── README.md   
 ```
 
-## 1. model.py
+### 1. model.py
    model.py file consists two major functions defined below,
    - We define our own class `class Net(nn.Module)` and then we initialize `__init__` function after we inherite all the functionality of nn.Module in our class   `super(Net, self).__init__()`. After that we start building our model.
    - The `forward()` function defines the process of calculating the output using the given layers and activation functions.
 
-## 2. utils.py
+### 2. utils.py
 utils.py file consists training and testing functions which are described below,
 - `train()` function defines the process of training the dataset.
 - `test()` function is used for testing the dataset.
 
-## 3. S5.ipynb
+### 3. S5.ipynb
 This is the main notebook file which consists below process,
-### a. import packages: 
+#### a. import packages: 
 - We are importing all neccessary libraries and functions files such as model.py and utils.py. 
 
-### b. Load Model:
+#### b. Load Model:
 -  In the next step, we have to check the Cuda device which adds support for CUDA tensor types, that implement the same function as CPU tensors, but they utilize GPUs for computation. Then, call the `model.py` function and load model to available device.
 - `summary()` function Summarize the given PyTorch model which summarized information includes Layer names, input/output shapes, kernel shape, No. of parameters.
 ```
@@ -48,7 +48,7 @@ Params size (MB): 2.26
 Estimated Total Size (MB): 2.94
 ----------------------------------------------------------------
 ```
-### c. Preparing the Dataset
+#### c. Preparing the Dataset
 - `batch_size`: batch size is the number of images (here, 128 images) we want to read in one go.
 - `torch.utils.data.DataLoader`: we make Data iterable by loading it to a loader.
 - `datasets.MNIST`: Downloading the MNIST dataset for training and testing at path ../data.
@@ -60,7 +60,7 @@ Estimated Total Size (MB): 2.94
 
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/sample_dataset.png)
 
-### d. Training and Testing
+#### d. Training and Testing
 - The neural network iterates over the training set and updates the weights. We make use of `optim.SGD` which is a Stochastic Gradient Descent (SGD) provided by PyTorch to optimize the model.
 - After each epoch the logs are provided below,
 ```
@@ -166,7 +166,7 @@ Test set: Average loss: 0.0184, Accuracy: 9936/10000 (99.36%)
 
 Adjusting learning rate of group 0 to 0.0000e+00.
 ```
-### e. Accuracy and Loss plots
+#### e. Accuracy and Loss plots
 - In each epoch (number of times we iterate over the training set), we will be seeing a gradual decrease in training loss.
 - The below figure provides training and testing loss as well as accuracy of the built model.
 
