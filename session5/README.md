@@ -11,8 +11,12 @@
 ## 1. model.py
 model.py file consists two major functions defined below,
 - We define our own class `class Net(nn.Module)` and we inharite nn.Module which is Base class for all neural network modules. Then we define initialize function `__init__` after we inherite all the functionality of nn.Module in our class `super(Net, self).__init__()`. After that we start building our model.
-
 - The `forward()` function defines the process of calculating the output using the given layers and activation functions.
+
+## 2. utils.py
+utils.py file consists training and testing functions which are described below,
+- `train()` function defines the process of training the dataset.
+- `test()` function is used for testing the dataset.
 
 ## MNIST-Classification
 
