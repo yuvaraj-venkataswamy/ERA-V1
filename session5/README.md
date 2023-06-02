@@ -1,5 +1,7 @@
 # Session 5
 
+## Sample MNIST dataset
+
 
 ## Model
 ```
