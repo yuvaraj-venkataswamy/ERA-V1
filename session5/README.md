@@ -19,7 +19,34 @@ utils.py file consists training and testing functions which are described below,
 - `test()` function is used for testing the dataset.
 
 ## 3. S5.ipynb
-This is the main file where we are importing all neccessary libraries and functions files such as model.py and utils.py. This notebook file consists below processes,
+This is the main notebook file which consists below process,
+- We are importing all neccessary libraries and functions files such as model.py and utils.py. 
+- In the next step, we have to check the Cuda device which adds support for CUDA tensor types, that implement the same function as CPU tensors, but they utilize GPUs for computation. Then, call the `model.py` function and load model to available device.
+- `summary()` function Summarize the given PyTorch model which summarized information includes Layer names, input/output shapes, kernel shape, No. of parameters.
+```
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 32, 26, 26]             320
+            Conv2d-2           [-1, 64, 24, 24]          18,496
+            Conv2d-3          [-1, 128, 10, 10]          73,856
+            Conv2d-4            [-1, 256, 8, 8]         295,168
+            Linear-5                   [-1, 50]         204,850
+            Linear-6                   [-1, 10]             510
+================================================================
+Total params: 593,200
+Trainable params: 593,200
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.67
+Params size (MB): 2.26
+Estimated Total Size (MB): 2.94
+----------------------------------------------------------------
+```
+
+
+
 
 
 
