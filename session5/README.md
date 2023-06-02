@@ -1,9 +1,15 @@
 # Session 5 Assignment
 
-## Sample MNIST dataset
+## Folder Structure
+
+
+
+## MNIST-CLASSIFICATION
+
+### Sample MNIST dataset
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/sample_dataset.png)
 
-## Model
+### Model
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
@@ -26,7 +32,7 @@ Estimated Total Size (MB): 2.94
 ----------------------------------------------------------------
 ```
 
-## Training logs
+### Training logs
 ```
 Adjusting learning rate of group 0 to 1.0000e-02.
 Epoch 1
@@ -130,5 +136,5 @@ Test set: Average loss: 0.0184, Accuracy: 9936/10000 (99.36%)
 
 Adjusting learning rate of group 0 to 0.0000e+00.
 ```
-## Accuracy and Loss plots
+### Accuracy and Loss plots
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/accuracy_loss_plot.png)
