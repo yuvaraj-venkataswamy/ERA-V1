@@ -21,7 +21,7 @@ utils.py file consists training and testing functions which are described below,
 
 ## 3. S5.ipynb
 This is the main notebook file which consists below process,
-### a. import packages: 
+   ### a. import packages: 
 - We are importing all neccessary libraries and functions files such as model.py and utils.py. 
 
 ### b. Load Model:
