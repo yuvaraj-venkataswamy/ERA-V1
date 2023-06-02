@@ -128,3 +128,5 @@ Test set: Average loss: 0.0184, Accuracy: 9936/10000 (99.36%)
 
 Adjusting learning rate of group 0 to 0.0000e+00.
 ```
+## Accuracy and Loss plots
+![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%209/Images/Accuracy.png)
