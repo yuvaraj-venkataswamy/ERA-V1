@@ -10,8 +10,8 @@
 
 ## 1. model.py
    model.py file consists two major functions defined below,
-       - We define our own class `class Net(nn.Module)` and then we initialize `__init__` function after we inherite all the functionality of nn.Module in our class   `super(Net, self).__init__()`. After that we start building our model.
-       - The `forward()` function defines the process of calculating the output using the given layers and activation functions.
+      - We define our own class `class Net(nn.Module)` and then we initialize `__init__` function after we inherite all the functionality of nn.Module in our class   `super(Net, self).__init__()`. After that we start building our model.
+      - The `forward()` function defines the process of calculating the output using the given layers and activation functions.
 
 ## 2. utils.py
 utils.py file consists training and testing functions which are described below,
