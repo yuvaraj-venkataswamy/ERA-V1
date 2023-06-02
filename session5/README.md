@@ -1,10 +1,14 @@
 # Session 5 Assignment
 
 ## Folder Structure
+```
+|── model.py
+|── utils.py
+|── S5.ipynb     
+|── README.md   
+```
 
-
-
-## MNIST-CLASSIFICATION
+## MNIST-Classification
 
 ### Sample MNIST dataset
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/sample_dataset.png)
