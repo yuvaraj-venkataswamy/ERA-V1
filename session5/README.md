@@ -58,7 +58,7 @@ Estimated Total Size (MB): 2.94
 - `shuffle=True`: Shuffle the training data to make it independent of the order by making it a True.
 - Sample MNIST dataset
 
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/sample_dataset.png)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/images/sample_dataset.png)
 
 #### d. Training and Testing
 - The neural network iterates over the training set and updates the weights. We make use of `optim.SGD` which is a Stochastic Gradient Descent (SGD) provided by PyTorch to optimize the model.
@@ -170,4 +170,4 @@ Adjusting learning rate of group 0 to 0.0000e+00.
 - In each epoch (number of times we iterate over the training set), we will be seeing a gradual decrease in training loss.
 - The below figure provides training and testing loss as well as accuracy of the built model.
 
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session5/image/accuracy_loss_plot.png)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/images/accuracy_loss_plot.png)
