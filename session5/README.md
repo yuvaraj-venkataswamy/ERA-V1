@@ -8,6 +8,8 @@
 |── README.md   
 ```
 
+## model.py
+
 ## MNIST-Classification
 
 ### Sample MNIST dataset
