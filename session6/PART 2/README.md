@@ -8,6 +8,7 @@ Buiding an architecture to achieve,
 5. (Optional): a Fully connected layer, have used GAP. 
 
 ## MODEL ARCHITECTURE
+Constructed the model in such a way that the number of parameters shoul be less than 20k.
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
