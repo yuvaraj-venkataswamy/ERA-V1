@@ -69,9 +69,126 @@ Estimated Total Size (MB): 1.35
 
 ## DATA PREPARATION
 - The MNIST database is a large database of handwritten digits that is commonly used for training various model architectures.
+
 ![alt_text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/images/sample_dataset_S6.png) 
 
 ## TRAINING AND TESTING
+Training and testing logs are provided below,
+```
+Epoch 1 : 
+  0%|          | 0/469 [00:00<?, ?it/s]<ipython-input-8-57e2fa97f87c>:77: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+loss=0.21440552175045013 batch_id=468: 100%|██████████| 469/469 [01:07<00:00,  6.98it/s]
 
+Test set: Average loss: 0.0560, Accuracy: 9829/10000 (98.29%)
+
+
+Epoch 2 : 
+loss=0.050974104553461075 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.39it/s]
+
+Test set: Average loss: 0.0389, Accuracy: 9878/10000 (98.78%)
+
+
+Epoch 3 : 
+loss=0.1348286122083664 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.39it/s]
+
+Test set: Average loss: 0.0315, Accuracy: 9905/10000 (99.05%)
+
+
+Epoch 4 : 
+loss=0.07328923791646957 batch_id=468: 100%|██████████| 469/469 [01:04<00:00,  7.33it/s]
+
+Test set: Average loss: 0.0275, Accuracy: 9914/10000 (99.14%)
+
+
+Epoch 5 : 
+loss=0.06996336579322815 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.40it/s]
+
+Test set: Average loss: 0.0261, Accuracy: 9924/10000 (99.24%)
+
+
+Epoch 6 : 
+loss=0.0316704697906971 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.38it/s]
+
+Test set: Average loss: 0.0235, Accuracy: 9928/10000 (99.28%)
+
+
+Epoch 7 : 
+loss=0.08884567767381668 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.35it/s]
+
+Test set: Average loss: 0.0229, Accuracy: 9925/10000 (99.25%)
+
+
+Epoch 8 : 
+loss=0.01366227027028799 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.42it/s]
+
+Test set: Average loss: 0.0207, Accuracy: 9934/10000 (99.34%)
+
+
+Epoch 9 : 
+loss=0.04848036542534828 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.39it/s]
+
+Test set: Average loss: 0.0202, Accuracy: 9939/10000 (99.39%)
+
+
+Epoch 10 : 
+loss=0.060379188507795334 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.36it/s]
+
+Test set: Average loss: 0.0198, Accuracy: 9941/10000 (99.41%)
+
+
+Epoch 11 : 
+loss=0.033541832119226456 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.36it/s]
+
+Test set: Average loss: 0.0189, Accuracy: 9930/10000 (99.30%)
+
+
+Epoch 12 : 
+loss=0.005692657083272934 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.36it/s]
+
+Test set: Average loss: 0.0215, Accuracy: 9936/10000 (99.36%)
+
+
+Epoch 13 : 
+loss=0.03460043668746948 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.35it/s]
+
+Test set: Average loss: 0.0195, Accuracy: 9940/10000 (99.40%)
+
+
+Epoch 14 : 
+loss=0.08565816283226013 batch_id=468: 100%|██████████| 469/469 [01:04<00:00,  7.32it/s]
+
+Test set: Average loss: 0.0172, Accuracy: 9944/10000 (99.44%)
+
+
+Epoch 15 : 
+loss=0.014360684901475906 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.35it/s]
+
+Test set: Average loss: 0.0169, Accuracy: 9941/10000 (99.41%)
+
+
+Epoch 16 : 
+loss=0.012136665172874928 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.35it/s]
+
+Test set: Average loss: 0.0168, Accuracy: 9945/10000 (99.45%)
+
+
+Epoch 17 : 
+loss=0.053760722279548645 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.33it/s]
+
+Test set: Average loss: 0.0186, Accuracy: 9944/10000 (99.44%)
+
+
+Epoch 18 : 
+loss=0.01371628325432539 batch_id=468: 100%|██████████| 469/469 [01:04<00:00,  7.27it/s]
+
+Test set: Average loss: 0.0181, Accuracy: 9941/10000 (99.41%)
+
+
+Epoch 19 : 
+loss=0.03255043923854828 batch_id=468: 100%|██████████| 469/469 [01:03<00:00,  7.38it/s]
+
+Test set: Average loss: 0.0172, Accuracy: 9945/10000 (99.45%)
+```
 
 ## RESULTS
