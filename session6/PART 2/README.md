@@ -193,3 +193,10 @@ Test set: Average loss: 0.0172, Accuracy: 9945/10000 (99.45%)
 ```
 
 ## RESULTS
+
+## CONCLUSION
+- The architecture is built using batch normalization, drop out, fully connected layer and Global Average Pooling (GAP).
+- The results attain 99.4% of accuracy within 20 epoch and number of parameters reached over 20k.
+
+## REFERENCES
+1. The architecture is build based based on this link, https://www.kaggle.com/enwei26/mnist-digits-pytorch-cnn-99
