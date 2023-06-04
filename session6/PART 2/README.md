@@ -9,7 +9,7 @@ Buiding an architecture to achieve,
 
 ## MODEL ARCHITECTURE
 ### *Batch Normalization*: 
-      Applied Batch Normalization at every layer to normalize the inputs to the next layer.
+Applied Batch Normalization at every layer to normalize the inputs to the next layer.
 ### *Drop-out*:
       Used dropout after batchnormlization every time to regularize our input and to prevent our model from overfitting.
 ### *Max Pooling*:
