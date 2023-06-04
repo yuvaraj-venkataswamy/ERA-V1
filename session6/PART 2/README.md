@@ -68,7 +68,8 @@ Estimated Total Size (MB): 1.35
       This layer is introduced when our channel dimension is 5x5. Not only does this translate convolutional structure to linear structure, it has the added advantage of having less parameters to compute and since it doesn't have to learn anything, it helps avoid overfitting. 
 
 ## DATA PREPARATION
-
+- The MNIST database is a large database of handwritten digits that is commonly used for training various model architectures.
+![alt_text](![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/assets/44864608/8f7abb69-1b38-4364-b607-93769a984c6f)) 
 
 ## TRAINING AND TESTING
 
