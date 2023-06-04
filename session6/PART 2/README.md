@@ -69,7 +69,7 @@ Estimated Total Size (MB): 1.35
 
 ## DATA PREPARATION
 - The MNIST database is a large database of handwritten digits that is commonly used for training various model architectures.
-![alt_text](![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/assets/44864608/8f7abb69-1b38-4364-b607-93769a984c6f)) 
+![alt_text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/images/sample_dataset_S6.png) 
 
 ## TRAINING AND TESTING
 
