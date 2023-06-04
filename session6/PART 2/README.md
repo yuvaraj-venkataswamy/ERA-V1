@@ -73,7 +73,8 @@ Estimated Total Size (MB): 1.35
 ![alt_text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/images/sample_dataset_S6.png) 
 
 ## TRAINING AND TESTING
-Training and testing logs are provided below,
+- In 13th epoch, I have reached 99.4% of accuracy.
+- Training and testing logs are provided below,
 ```
 Epoch 1 : 
   0%|          | 0/469 [00:00<?, ?it/s]<ipython-input-8-57e2fa97f87c>:77: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
