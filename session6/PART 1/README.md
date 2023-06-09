@@ -97,7 +97,7 @@ Excel Sheet- https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%2
 
 Error graph is plotted by changing different learning rates 0.1, 0.2, 0.5, 0.8, 1.0, 2.0. 
 
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%204/PART%201/Images/Plot.JPG)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session6/PART%201/Error_graph.png)
 
 The above plot shows the loss is slowly decreasing and takes more time to converge for `low learning rate` and a steep decrease in loss is noticed when the learning rate increase from 0.1 to 2.
 
