@@ -2,7 +2,7 @@
 
 Backpropagation is an approach for training a neural network and it will optimize the weights of the neural network that can learn how to correctly map from inputs to outputs. 
 
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%204/PART%201/Images/Neural_Network.JPG)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session6/PART%201/backpropagation.png)
 
 The above neural network consist of two inputs, two hidden neurons, two output neurons.
 
