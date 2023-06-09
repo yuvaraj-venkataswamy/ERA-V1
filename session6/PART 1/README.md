@@ -94,6 +94,8 @@ w8 = w8-learning_rate * ∂E_total/∂w8
 ### Error Graph at different LR
 
 Excel Sheet- https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session6/PART%201/BackPropagation.xlsx
+This excel provides 6 sheers names η = 0.1, η = 0.2, η = 0.5, η = 0.8, η = 1, η = 2 and combined plots plotted in last sheet.
+
 
 Error graph is plotted by changing different learning rates 0.1, 0.2, 0.5, 0.8, 1.0, 2.0. 
 
