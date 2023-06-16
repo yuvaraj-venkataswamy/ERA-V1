@@ -84,17 +84,8 @@ Construct `Basic Structure` of model with the prior knowledge that
 
 ```
 
-Operation	nin	in_ch	out_ch	padding	kernel	stride	nout	jin	jout	rin	rout
-Convolution	28	1	8	0	3	1	26	1	1	1	3
-Convolution	26	8	16	0	3	1	24	1	1	3	5
-Max-Pooling	24	16	16	0	2	2	12	1	2	5	6
-Convolution	12	16	8	0	1	1	12	2	2	6	6
-Convolution	12	8	16	0	3	1	10	2	2	6	10
-Convolution	10	16	24	0	3	1	8	2	2	10	14
-GAP	8	24	24	0	8	1	1	2	2	14	28
-Convolution	1	24	32	0	1	1	1	2	2	28	28
-Convolution	1	32	16	0	1	1	1	2	2	28	28
-Convolution	1	16	10	0	1	1	1	2	2	28	28
-![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/assets/44864608/64475651-b060-4be9-9b11-e402916d20a1)
+## Receptive Field Calculation
+![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/assets/44864608/b049d257-ccfe-4601-ac08-66d8e29473c9)
 
+## Training and Test logs of Final Model
 
