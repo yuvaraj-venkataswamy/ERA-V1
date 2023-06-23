@@ -74,9 +74,10 @@ Estimated Total Size (MB): 1.04
 
 ## Accuracy and Loss plots
 1. BATCH NORMALIZATION
-
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/images/BN.png)
    
-3. LAYER NORMALIZATION
-
+2. LAYER NORMALIZATION
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/images/LN.png)
    
-5. GROUP NORMALIZATION
+3. GROUP NORMALIZATION
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/images/LN.png)
