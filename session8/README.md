@@ -81,3 +81,5 @@ Estimated Total Size (MB): 1.04
    
 3. GROUP NORMALIZATION
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/images/LN.png)
+
+## (Accuracy ia not crossed better level, I will go through into more details)
