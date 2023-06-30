@@ -590,3 +590,4 @@ Test set: Average loss: 0.0028, Accuracy: 8869/10000 (88.69%)
 ```
 
 ## Accuracy and Loss Graphs
+![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session9/Loss_accuracy_graph.png)
