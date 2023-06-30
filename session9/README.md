@@ -17,6 +17,13 @@
 ## Dataset
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes. There are 50000 training images and 10000 test images. Classes include plane, car, bird, cat, deer, dog, frog, horse, ship and truck.
 
+## Albumentation
+  - horizontal flip
+  - shiftScaleRotate
+  - coarseDropout (max_holes = 1, max_height=16px, max_width=16, min_holes = 1, min_height=16px, min_width=16px, fill_value=(mean of your dataset), mask_fill_value = None)
+
+![image]()
+
 ## Model
 ```
 ----------------------------------------------------------------
