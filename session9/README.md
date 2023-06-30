@@ -1,5 +1,5 @@
 # Session 9 - Advanced Convolutions, Data Augmentation and Visualization
-
+ 
 ## Objective 
 1. Build network that
   - has the architecture to C1C2C3C40 (No MaxPooling, but 3 convolutions, where the last one has a stride of 2 instead) 
