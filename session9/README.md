@@ -81,8 +81,8 @@ Estimated Total Size (MB): 3.74
 ```
 ## Receptive Field Calculation
 
-| nin	In Channels	Out_Channels	padding	kernel	stride	dilation	nout	jin	jout	rin	rout
-| Conv-1A	32	3	12	1	3	1	2	30	1	1	1	5
+| nin|	In Channels|	Out_Channels|	padding	kernel|	stride|	dilation|	nout|	jin	|jout	|rin|	rout|
+| Conv-1A|	32	|3	|12	|1	|3	|1	|2	|30	|1	|1	|1	|5|
 | Conv-2A	30	12	24	1	3	1	2	28	1	1	5	9
 | Conv-3A	28	24	48	1	3	2	1	14	1	2	9	11
 Conv-4A	14	48	48	1	3	1	1	14	2	2	11	15
@@ -96,7 +96,6 @@ Conv5 - Reduction 1	12	60	30	0	3	2	1	6	2	4	19	23
 Conv5 - Reuction 2	10	30	10	0	3	1	1	6	4	4	23	31
 GAP	6	10	10	0	6	1	1	1	4	4	31	51
 ![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/assets/44864608/93ea4e53-6cef-4a73-9b2d-a11eeab95057)
-
 
 ## Training & Testing Logs
 
