@@ -80,6 +80,7 @@ Estimated Total Size (MB): 3.74
 ----------------------------------------------------------------
 ```
 ## Receptive Field Calculation
+![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/assets/44864608/d2103a9f-3057-48ad-b9ac-4e98fdd9de77)
 
 ## Training & Testing Logs
 
