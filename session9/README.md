@@ -19,6 +19,8 @@ The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes. There 
 
 ## Model
 
+## Receptive Field Calculation
+
 ## Training & Testing Logs
 
 ## Accuracy and Loss Graphs
