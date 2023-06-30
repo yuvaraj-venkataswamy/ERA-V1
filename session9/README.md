@@ -22,7 +22,7 @@ The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes. There 
   - shiftScaleRotate
   - coarseDropout (max_holes = 1, max_height=16px, max_width=16, min_holes = 1, min_height=16px, min_width=16px, fill_value=(mean of your dataset), mask_fill_value = None)
 
-![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session9/dataset_sample.png)
+![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session9/image/dataset_sample.png)
 
 ## 3. Model
 ```
@@ -597,4 +597,4 @@ Test set: Average loss: 0.0028, Accuracy: 8869/10000 (88.69%)
 ```
 
 ## 6. Accuracy and Loss Graphs
-![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session9/Loss_accuracy_graph.png)
+![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session9/image/Loss_accuracy_graph.png)
