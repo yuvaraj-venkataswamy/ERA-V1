@@ -14,17 +14,17 @@
 3. Achieve 85% accuracy, as many epochs as you want.
 4. Total Params to be less than 200k.
   
-## Dataset
+## 1. Dataset
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes. There are 50000 training images and 10000 test images. Classes include plane, car, bird, cat, deer, dog, frog, horse, ship and truck.
 
-## Albumentation
+## 2. Albumentation
   - horizontal flip
   - shiftScaleRotate
   - coarseDropout (max_holes = 1, max_height=16px, max_width=16, min_holes = 1, min_height=16px, min_width=16px, fill_value=(mean of your dataset), mask_fill_value = None)
 
-![image]()
+![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session9/dataset_sample.png)
 
-## Model
+## 3. Model
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
@@ -86,11 +86,11 @@ Params size (MB): 0.36
 Estimated Total Size (MB): 3.74
 ----------------------------------------------------------------
 ```
-## Receptive Field Calculation
+## 4. Receptive Field Calculation
 
 ![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/assets/44864608/93ea4e53-6cef-4a73-9b2d-a11eeab95057)
 
-## Training & Testing Logs
+## 5. Training & Testing Logs
 
 ```
 EPOCH: 1
@@ -596,5 +596,5 @@ Loss=0.3460105061531067 Batch_id=390 LR=0.00000 Accuracy=86.15: 100%|███�
 Test set: Average loss: 0.0028, Accuracy: 8869/10000 (88.69%)
 ```
 
-## Accuracy and Loss Graphs
+## 6. Accuracy and Loss Graphs
 ![image](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session9/Loss_accuracy_graph.png)
