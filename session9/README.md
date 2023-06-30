@@ -81,7 +81,7 @@ Estimated Total Size (MB): 3.74
 ```
 ## Receptive Field Calculation
 
-	nin	| In Channels | Out_Channels	| padding	kernel	| stride	| dilation	| nout	| jin	| jout	| rin	| rout
+	nin | In Channels | Out_Channels | padding | kernel | stride | dilation	| nout | jin | jout | rin | rout
 Conv-1A	32	3	12	1	3	1	2	30	1	1	1	5
 Conv-2A	30	12	24	1	3	1	2	28	1	1	5	9
 Conv-3A	28	24	48	1	3	2	1	14	1	2	9	11
