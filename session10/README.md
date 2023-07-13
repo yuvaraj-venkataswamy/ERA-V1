@@ -1,33 +1,35 @@
 # Session 10 - Residual Connections in CNNs and One Cycle Policy
 
-- Write a customLinks to an external site. ResNet architecture for CIFAR10 that has the following architecture:
-    PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
-    Layer1 -
+1. Write a customLinks to an external site. ResNet architecture for CIFAR10 that has the following architecture:
+    1. PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
+    2. Layer1 -
         X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [128k]
         R1 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [128k] 
         Add(X, R1)
-    Layer 2 -
+    3. Layer 2 -
         Conv 3x3 [256k]
         MaxPooling2D
         BN
         ReLU
-    Layer 3 -
+    4. Layer 3 -
         X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [512k]
         R2 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [512k]
         Add(X, R2)
-    MaxPooling with Kernel Size 4
-    FC Layer 
-    SoftMax
-    Uses One Cycle Policy such that:
-        Total Epochs = 24
-        Max at Epoch = 5
-        LRMIN = FIND
-        LRMAX = FIND
-        NO Annihilation
-    Uses this transform -RandomCrop 32, 32 (after padding of 4) >> FlipLR >> Followed by CutOut(8, 8)
-    Batch size = 512
-    Use ADAM, and CrossEntropyLoss
-    Target Accuracy: 90%
+    5. MaxPooling with Kernel Size 4
+    6. FC Layer 
+    7. SoftMax
+
+2. Uses One Cycle Policy such that:
+    - Total Epochs = 24
+    - Max at Epoch = 5
+    - LRMIN = FIND
+    - LRMAX = FIND
+    - NO Annihilation
+3. Uses this transform -RandomCrop 32, 32 (after padding of 4) >> FlipLR >> Followed by CutOut(8, 8)
+4. Batch size = 512
+5. Use ADAM, and CrossEntropyLoss
+6. Target Accuracy: 90%
+
 ## Custom ResNet Model
 
 ```
