@@ -243,7 +243,9 @@ Test set: Average loss: 0.3077, Accuracy: 9098/10000 (90.98%)
 ```
 
 ## Accuracy Plot
+
 ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%209/Images/misclassified_images.png)
+
 Accuracy of plane : 85 %
 Accuracy of car : 100 %
 Accuracy of bird : 100 %
