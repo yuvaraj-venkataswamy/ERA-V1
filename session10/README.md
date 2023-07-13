@@ -2,15 +2,18 @@
 
 1. Write a customLinks to an external site. ResNet architecture for CIFAR10 that has the following architecture:
     1. PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
+    
     2. Layer1 -
         X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [128k]
         R1 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [128k] 
         Add(X, R1)
+    
     3. Layer 2 -
         Conv 3x3 [256k]
         MaxPooling2D
         BN
         ReLU
+    
     4. Layer 3 -
         X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [512k]
         R2 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [512k]
