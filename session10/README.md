@@ -97,7 +97,7 @@ Estimated Total Size (MB): 33.40
 - Highest test Accuracy - 90.88%
 
 ## LR Search Plot
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%209/Images/misclassified_images.png)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/LR.png)
 
 ## Training and Testing Logs
 ```
