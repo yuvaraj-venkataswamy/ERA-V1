@@ -256,7 +256,7 @@ Accuracy of ship : 91 %
 Accuracy of truck : 100 %
 
 ## Misclassified Images
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%209/Images/misclassified_images.png)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/misclassified_images.png)
 
 ## Misclassified Images with Grad-CAM
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%209/Images/misclassified_images.png)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/misclassified_gradcam.png)
