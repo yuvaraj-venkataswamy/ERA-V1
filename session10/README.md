@@ -1,5 +1,6 @@
 # Session 10 - Residual Connections in CNNs and One Cycle Policy
 
+## Objective
 1. Write a customLinks to an external site. ResNet architecture for CIFAR10 that has the following architecture:
     1. PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
     
