@@ -1,6 +1,6 @@
 # Session 10 - Residual Connections in CNNs and One Cycle Policy
 
-## Objective
+## 1. Objective
 1. Write a customLinks to an external site. ResNet architecture for CIFAR10 that has the following architecture:
     1. PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
     
@@ -34,7 +34,7 @@
 5. Use ADAM, and CrossEntropyLoss
 6. Target Accuracy: 90%
 
-## Custom ResNet Model
+## 2. Custom ResNet Model
 
 ```
 ----------------------------------------------------------------
@@ -96,10 +96,10 @@ Estimated Total Size (MB): 33.40
 - Highest Train Accuracy -96.21%
 - Highest test Accuracy - 90.88%
 
-## LR Search Plot
+## 3. LR Search Plot
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/LR.png)
 
-## Training and Testing Logs
+## 4. Training and Testing Logs
 ```
 EPOCH: 1
 Loss=1.5430887937545776 Batch_id=97 Accuracy=40.42: 100%|██████████| 98/98 [00:23<00:00,  4.21it/s]
@@ -242,7 +242,7 @@ Loss=0.13081176578998566 Batch_id=97 Accuracy=95.89: 100%|███████�
 Test set: Average loss: 0.3077, Accuracy: 9098/10000 (90.98%)
 ```
 
-## Accuracy Plot
+## 5. Accuracy Plot
 
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/accuracy.png)
 
@@ -257,8 +257,8 @@ Test set: Average loss: 0.3077, Accuracy: 9098/10000 (90.98%)
 - Accuracy of ship : 91 %
 - Accuracy of truck : 100 %
 
-## Misclassified Images
+## 6. Misclassified Images
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/misclassified_images.png)
 
-## Misclassified Images with Grad-CAM
+## 7. Misclassified Images with Grad-CAM
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/misclassified_gradcam.png)
