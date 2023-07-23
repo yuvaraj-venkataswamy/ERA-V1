@@ -259,6 +259,3 @@ Test set: Average loss: 0.3077, Accuracy: 9098/10000 (90.98%)
 
 ## 6. Misclassified Images
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/misclassified_images.png)
-
-## 7. Misclassified Images with Grad-CAM
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/misclassified_gradcam.png)
