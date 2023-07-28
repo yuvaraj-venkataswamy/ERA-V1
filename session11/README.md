@@ -1,38 +1,15 @@
 # Session 11 - CAMs, LRs, and Optimizers
 
 ## 1. Objective
-1. Write a customLinks to an external site. ResNet architecture for CIFAR10 that has the following architecture:
-    1. PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
-    
-    2. Layer1 -
-        - X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [128k]
-        - R1 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [128k] 
-        - Add(X, R1)
-    
-    3. Layer 2 -
-        - Conv 3x3 [256k]
-        - MaxPooling2D
-        - BN
-        - ReLU
-    
-    4. Layer 3 -
-        - X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [512k]
-        - R2 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [512k]
-        - Add(X, R2)
-    5. MaxPooling with Kernel Size 4
-    6. FC Layer 
-    7. SoftMax
+1. Train ResNet18
+2. Apply these transforms while training:
+    a. RandomCrop(32, padding=4)
+   b. CutOut(16x16)
+3. Use Cifar10 for 20 Epochs
+4. show loss curves for test and train datasets
+5. show a gallery of 10 misclassified images
+6. show gradcam output on 10 misclassified images
 
-2. Uses One Cycle Policy such that:
-    - Total Epochs = 24
-    - Max at Epoch = 5
-    - LRMIN = FIND
-    - LRMAX = FIND
-    - NO Annihilation
-3. Uses this transform -RandomCrop 32, 32 (after padding of 4) >> FlipLR >> Followed by CutOut(8, 8)
-4. Batch size = 512
-5. Use ADAM, and CrossEntropyLoss
-6. Target Accuracy: 90%
 
 ## 2. ResNet18 Model
 
