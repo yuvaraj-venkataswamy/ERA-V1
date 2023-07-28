@@ -3,8 +3,8 @@
 ## 1. Objective
 1. Train ResNet18
 2. Apply these transforms while training:
-    a. RandomCrop(32, padding=4)
-   b. CutOut(16x16)
+    - RandomCrop(32, padding=4)
+    - CutOut(16x16)
 3. Use Cifar10 for 20 Epochs
 4. show loss curves for test and train datasets
 5. show a gallery of 10 misclassified images
