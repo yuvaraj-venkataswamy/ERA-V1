@@ -208,17 +208,17 @@ Test set: Average loss: 0.0037, Accuracy: 8422/10000 (84.22%)
 
 ## 4. Accuracy & Loss Plot
 
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/accuracy.png)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session11/images/accuracy_plot_s11.png)
 
 
 ## 5. Misclassified Images
 
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/misclassified_images.png)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session11/images/misclassified_images_s11.png)
 
 
 ## 6. GRADCOM-Misclassified Images
 
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/misclassified_images.png)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session11/images/misclassified_gradcam_s11.png)
 
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session10/images/misclassified_images.png)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session11/images/misclassified_gradcam1_s11.png)
 
