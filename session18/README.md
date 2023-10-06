@@ -157,6 +157,13 @@ Epoch 20/20
 
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session18/images/output.png)
 
+## VAE MNIST 
+
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session18/images/MNISTsample1_.png)
+
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session18/images/MNISTsample2_.png)
+
+
 ## Reference
 1. https://medium.com/geekculture/u-net-implementation-from-scratch-using-tensorflow-b4342266e406
 2. https://www.kaggle.com/datasets/tanlikesmath/the-oxfordiiit-pet-dataset
