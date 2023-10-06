@@ -2,6 +2,7 @@
 
 ## UNET Architecture
 UNET is a popular neural network architecture for image segmentation tasks.
+
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session18/images/unet.gif)
 
 1. It consists of a contracting path, which gradually reduces the spatial resolution of the input image while increasing the number of channels, and an expanding path, which gradually recovers the original resolution while decreasing the number of channels. 
@@ -156,3 +157,6 @@ Epoch 20/20
 
 ![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session18/images/output.png)
 
+## Reference
+1. https://medium.com/geekculture/u-net-implementation-from-scratch-using-tensorflow-b4342266e406
+2. https://www.kaggle.com/datasets/tanlikesmath/the-oxfordiiit-pet-dataset
