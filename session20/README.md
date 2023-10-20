@@ -24,7 +24,7 @@ The encoder compresses an image representation into a lower resolution image rep
 
 The text-encoder is responsible for transforming the input prompt, *e.g.* "An astronout riding a horse" into an embedding space that can be understood by the U-Net. It is usually a simple *transformer-based* encoder that maps a sequence of input tokens to a sequence of latent text-embeddings.
 
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session19/Images/segment-anything-pipeline.gif)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session20/images/stable_diffusion.png)
 
 The stable diffusion model takes both a latent seed and a text prompt as an input. The latent seed is then used to generate random latent image representations of size  64×64  where as the text prompt is transformed to text embeddings of size  77×768  via CLIP's text encoder.
 
@@ -36,7 +36,7 @@ prompt = "many astronauts walking in the moon"
 image = pipe(prompt, height=512, width=768).images[0]
 image
 ```
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session19/Images/segment-anything-pipeline.gif)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session20/images/prompt1.png)
 
 ## Result 2
 ```
@@ -44,7 +44,7 @@ prompt = "A girl cutting pizza"
 image = pipe(prompt, height=512, width=768).images[0]
 image
 ```
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session19/Images/segment-anything-pipeline.gif)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session20/images/prompt2.png)
 
 ## Result 3
 ```
@@ -52,7 +52,7 @@ prompt = "A boy painting a picture of tree"
 image = pipe(prompt, height=512, width=768).images[0]
 image
 ```
-![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session19/Images/segment-anything-pipeline.gif)
+![alt text](https://github.com/yuvaraj-venkataswamy/ERA-V1/blob/main/session20/images/prompt3.png)
 
 ## References
 1. https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb
